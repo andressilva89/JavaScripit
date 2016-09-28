@@ -4,14 +4,18 @@
         <Script>
             function validacampos()
             {
-                    
+             var cpf = document.getElementById('nome').value;
+             var cpf = document.getElementById('cpf').value;
+             var cpf = document.getElementById('email').value;
+             var cpf = document.getElementById('senha').value;
+             var cpf = document.getElementById('senhaconfirmacao').value;
             }
 
             function TestaCPF(cpf) {
                 var Soma;
                 var Resto;
                 Soma = 0;
-                var cpf = document.getElementById('cpf').value;
+                
                 if (cpf == "00000000000") {
                     return false;
                 }
